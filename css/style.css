@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgba(18, 21, 39, 0.918);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.89; */
+}
+
+/* logo */
+#logo{
+    margin: 0.4rem 0.4rem 0.4rem 3.6rem;
+}
+
+#logo h1{
+    padding: 0.5rem;
+}
+
+/* navbar menu */
+#navbar-list{
+    display: flex;
+}
+
+#navbar-list li{
+    margin: 0.2rem 0.5rem;
+    padding: 1rem 1.5rem;
+}
+
+#navbar-list li a{
+    font-size: 1.8rem;
+    color: white;
+}
+
+#navbar-list li a:hover{
+    color: rgba(226, 80, 27, 0.877);
+}
+
+.btn-primary:hover{
+    background-color: rgba(18, 21, 39, 0.918);
+}
+
+/* Section first */
+#section-first{
+    height: 529px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-first::before{
+    content: "";
+    background: url('../image/bg-primary.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79;
+
+}
+
+#section-first h3{
+    margin: 0rem 0rem 2.5rem 0rem;
+}
+
+.btn-secondary:hover{
+    background-color: rgba(18, 21, 39, 0.918);
+}
+
+/* Utility classes */
+.font-primary{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.2rem;
+}
+
+.font-primary-large{
+    font-size: 7rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-secondary{
+    font-size: 2.4rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.heading-color{
+    color: rgb(255, 255, 255);
+}
+
+.span-color{
+    color: rgb(243, 76, 16);
+}
+
+.btn-primary{
+    font-size: 1.6rem;
+    margin: 0.2rem 9rem 0.2rem 0.2rem;
+    padding: 0.5rem 1rem;
+    border: 0.2rem solid wheat;
+    background-color: rgba(165, 49, 7, 0.884);
+    color: white;
+    border-radius: 2rem;
+}
+
+.btn-secondary{
+    font-size: 1.8rem;
+    margin: 1.5rem 0.5rem;
+    padding: 1rem 1rem;
+    border: 0.2rem solid wheat;
+    background-color: rgba(165, 49, 7, 0.884);
+    color: white;
+    border-radius: 2rem;
+}
