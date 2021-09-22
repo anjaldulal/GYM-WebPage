@@ -1,2 +1,2 @@
-# GYM-WebPage
-A simple gym landing page as a practice for CSS flexbox and Pseudo Selectors
+# GYM-WebPag
+A gym landing page build to enhance html and css skill using flexbox and made fully responsive using media queries.
