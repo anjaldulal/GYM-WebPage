@@ -1,2 +1,5 @@
 # GYM-WebPag
-A gym landing page build to enhance html and css skill using flexbox and made fully responsive using media queries.
+
+A gym landing page built form scratch to enhance html and css skill.
+While building this project i took help from documentation and research on google.
+It is fully responsive on mobile devices and ipad too.
